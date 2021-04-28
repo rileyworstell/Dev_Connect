@@ -20,7 +20,7 @@ const Profiles = ({ getProfiles, profile: { profiles, loading }}) => {
                     profiles.map(profile => (
                         <ProfileItem key={profile._id} profile={profile} />
                     ))
-                ) : (<h4> found...</h4>) }
+                ) : (<h4> Not found...</h4>) }
             </div>
         </Fragment>}
     </Fragment>;
