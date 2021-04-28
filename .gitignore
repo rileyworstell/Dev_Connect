@@ -1,2 +1,5 @@
 node_modules/
 config/default.json
+README_api.md
+README_deploy.md
+README_reactFE.md
